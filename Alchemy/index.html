@@ -10,17 +10,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
-    <title>Alchemy</title>
+    <title>Alchemy Anim</title>
 </head>
 <body>
     <header class="header">
-      <a class="logo" href="#">Alchemy</a>
+      <a class="logo" href="#">Alchemy Anim</a>
 
 
       <nav class="header--nav">
         <a class="navbar--text" href="#">Contacts</a>
         <a class="navbar--text" href="#">News</a>
         <a class="navbar--text" href="#">About Us</a>
+        <a class="navbar--text" href="#">Catalog</a>
+        <a class="navbar--text" href="#"></a>
       </nav>
 
 
@@ -29,5 +31,38 @@
         <a class="regLog" href="#">Sign up</a>
       </div>
     </header>
+
+    <div class="slideshow-container">
+      <a class="prev" onclick="plusSlides(-1)">&#10094</a> 
+      <div class="mySlides fade">
+          <img class="slider--img" src="/img slider/infa 1.svg">
+      </div>
+      <div class="mySlides fade">
+          <img class="slider--img" src="/img slider/infa 2.svg">
+      </div>
+      <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+
+    <div class="info--container">
+      <div class="info">
+        <p class="info--text">Собственное производство</p>
+      </div>
+      <div class="info">
+        <p class="info--text">Продукция с вашим дизайном или под заказ</p>
+      </div>
+      <div class="info">
+        <p class="info--text">Доставка по всей России</p>
+      </div>
+    </div>
+
+
+    <div class="offers">
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  <script src="/slider.js"></script>
 </body>
 </html>

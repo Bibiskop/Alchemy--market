@@ -8,7 +8,7 @@
 }
 body
 {
-    background: linear-gradient(rgb(37, 0, 80), rgb(98, 0, 211));
+    background: linear-gradient(rgb(0, 66, 128), rgb(58, 150, 255), rgb(127, 229, 255));
     height: 100vh;
     overflow-x: hidden;
     display: flex;
@@ -50,11 +50,61 @@ a
   border-radius: 15px;
   padding: 10px;
 }
-.regLog:hover, .navbar--text:hover
+.regLog:hover, .navbar--text:hover, .logo:hover
 {
   color: rgb(207, 0, 207);
 } 
 .regLog:hover
 {
   border: rgb(207, 0, 207) solid 2px;
+}
+.slideshow-container
+{
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.prev, .next
+{
+  font-size: 6ex;
+  cursor: pointer;
+}
+.prev:hover, .next:hover
+{
+  color: rgb(207, 0, 207);
+  opacity: none;
+}
+.slider--img
+{
+  width: 1860px;
+}
+.info--container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 100px;
+}
+.info
+{
+  border-radius: 50px;
+  border: 4px solid rgb(0, 66, 128);
+}
+.info--text
+{
+  font-size: 4ex;
+  font-weight: 600;
+  padding: 50px;
+  color: rgb(0, 66, 128);
 }
